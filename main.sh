@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 mkdir /usr/share/sflbd
 curl https://raw.githubusercontent.com/socratesgaming/project-S.O.C.R.A.T.E.S/refs/heads/main/secret.txt.gpg.asc -o /usr/share/sflbd/secret.txt.gpg.asc
 base64 -d /usr/share/sflbd/secret.txt.gpg.asc > /usr/share/sflbd/secret.txt.gpg
